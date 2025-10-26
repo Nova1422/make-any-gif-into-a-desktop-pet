@@ -8,7 +8,7 @@ how to use
 - choose any one of the existing gifs or add your own
 - rename the gif to pet
 - open command prompt
-- type in cd <location of the python file>
+- type in cd location-of-the-python-file (for exmaple C:\Users\YourName\Desktop\desktoppet)
 followed by
 - python desktop_pet.py
 
