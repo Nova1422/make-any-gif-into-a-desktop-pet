@@ -14,6 +14,6 @@ followed by
 
 And you should be done!, currently limited to only one gif/pet, it can be dragged but thats all
 
-to drag, left click + drag
-to resize, right click + drag
-to get rid of it, double click, or close command promt
+- to drag, left click + drag
+- to resize, right click + drag
+- to get rid of it, double click, or close command promt
