@@ -7,8 +7,9 @@ class DesktopPet:
         self.root = tk.Tk()
         self.root.overrideredirect(True)  # No title bar
         self.root.wm_attributes("-topmost", True)  # Always on top
-        self.root.wm_attributes("-transparentcolor", "white")  # Transparency
-        self.root.config(bg='white')
+        self.transparent_color = "#000000"
+        self.root.config(bg=self.transparent_color)
+        self.root.wm_attributes("-transparentcolor", self.transparent_color)
 
         # Load GIF frames
         self.original_frames = []
@@ -25,7 +26,7 @@ class DesktopPet:
         self.frame_cycle = itertools.cycle(self.frames)
 
         # Create label to display the GIF
-        self.label = tk.Label(self.root, bg="white", bd=0)
+        self.label = tk.Label(self.root, bg=self.transparent_color, bd=0)
         self.label.pack()
 
         # Bind movement (left-click drag)
